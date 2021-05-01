@@ -919,7 +919,7 @@ Example
             }
         }
     })
-    .on('error', function(error, receipt) { // If the transaction was rejected by the network with a receipt, the second parameter will be the receipt.
+    .on('error', function(error, rceipt) { // If the transaction was rejected by the network with a receipt, the second parameter will be the receipt.
         ...
     });
 
